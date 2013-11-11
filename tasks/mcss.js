@@ -67,10 +67,6 @@ module.exports = function(grunt) {
           });
         }
         promises = promises.concat(pairs.map(function(pair){
-          console.log(options({
-              filename: path.join(process.cwd(),pair.input), 
-              dest: path.join(process.cwd(), pair.dest)
-            }))
           return mcss(
             options({
               filename: path.join(process.cwd(),pair.input), 

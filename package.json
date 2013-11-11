@@ -1,7 +1,7 @@
 {
   "name": "grunt-mcss",
   "description": "compile MCSS to CSS",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/NeteaseWD/grunt-mcss",
   "author": {
     "name": "leeluolee",
